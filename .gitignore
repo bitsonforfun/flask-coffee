@@ -1,0 +1,42 @@
+# Byte-compiled
+*.pyc
+*.DS_Store
+
+# Logs
+app/logs/*.log
+app/logs/*.log.*
+
+# LocalConfig
+instance/config.py
+
+# PyCharm
+.idea/
+
+# Data preparation
+app/scripts/*.json
+app/scripts/*.log
+
+# Wsgi
+wsgi.pid
+
+# Uploads
+app/static/uploads/
+app/static/downloads/
+app/static/exports/
+app/static/reports/
+
+# Qiniu
+.qiniu*
+
+# pytest
+.pytest_cache
+
+# npm
+node_modules/
+build/
+npm-debug.log
+.env
+
+# venv
+venv/
+
