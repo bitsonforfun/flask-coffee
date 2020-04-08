@@ -14,7 +14,7 @@ from fabric import task
 # Multi hosts
 # host, e.g, root@129.168.0.1:9527
 hosts = [
-    {'host': '<FIXME>', 'connect_kwargs': {'password': '<FIXME>'}}
+    {'host': 'root@38.147.160.43', 'connect_kwargs': {'password': 'lxm870605'}}
 ]
 # www folder
 project_folder = '/appl/projects/seed/www'
