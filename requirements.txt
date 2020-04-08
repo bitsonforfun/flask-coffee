@@ -20,3 +20,4 @@ qiniu
 # pandas
 pydash
 python-binance
+Werkzeug==0.16.1
