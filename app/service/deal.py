@@ -6,6 +6,7 @@ import datetime
 import heapq
 
 CLOSE_RANGE = 20
+LARGEST_N = 15
 
 api_key = current_app.config['API_KEY']
 api_secret = current_app.config['API_SECRET']
@@ -52,7 +53,7 @@ def get_price_range():
 
         high_list.append(high)
     avg = sum / len(klines)
-    second_high = heapq.nlargest(2, high_list)[1]
+    second_high = heapq.nlargest(LARGEST_N, high_list)[LARGEST_N - 1]
     start_price = second_high
     end_price = second_high - avg
 
