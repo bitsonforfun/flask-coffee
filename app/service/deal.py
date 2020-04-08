@@ -33,7 +33,7 @@ def buy(price, quantity):
         price=price,
         quantity=quantity,
         timeInForce='GTC',
-        recvWindow=2000)
+        recvWindow=5000)
     return order
 
 
