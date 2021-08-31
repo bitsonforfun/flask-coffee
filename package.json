@@ -38,7 +38,7 @@
     "gulp-uglify": "^3.0.2",
     "lodash": "^4.17.11",
     "run-sequence": "^2.1.1",
-    "tar": ">=4.4.8"
+    "tar": ">=5.0.10"
   },
   "engines": {
     "node": ">=0.8.0"
